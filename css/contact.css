@@ -1,0 +1,66 @@
+body {
+    background-color: #f1f1f1 !important;
+}
+.container h1 {
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.con-form {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.form-group{
+    position: relative;
+}
+
+.con-form input,
+form textarea {
+    margin-top:7px ;
+    padding-left: 25px;
+}
+
+
+.con-form textarea {
+    height: 150px;
+}
+
+
+.alert {
+    margin-bottom: 7px !important;
+}
+
+/* .con-form::before {
+        content: '\f007';
+        font-family: fontawesome;
+        float: left;
+        position: relative;
+        color: #88888871;
+        top: 28px;
+        left: 7px;
+        width: 20px;
+        height: 20px;
+} */
+.con-form .form-group .icon{
+        float: left;
+        position: relative;
+        color: #88888867;
+        bottom: 30px;
+        height: 0;
+        left: 7px;
+}
+
+.con-form .form-group .asterisk {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    color: #b50b0bab;
+    font-size: 17px;
+} 
+ .con-form .form-group:last-child .icon{
+        color: #eeeeeec7;
+        bottom: -17px;
+        font-size: small;
+        }
+
+
